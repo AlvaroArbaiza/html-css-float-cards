@@ -1,3 +1,4 @@
+/* REGOLE LAYOUT */
 .container {
     width: 90%;
 }
@@ -6,38 +7,56 @@
     margin: 50px auto;
 }
 
-h1 {
+/* HEADER - Titolo H1 e Paragrafo */
+
+header {
+    text-align: center;
+}
+
+header h1 {
     color: rgb(229, 49, 112);
     margin-bottom: 50px;
     font-size: 40px;
     font-weight: 1000;
 }
 
-p {
+header p {
     font-size: 20px;
     font-weight: 500;
 }
 
-header {
-    text-align: center;
-}
+/* PROFILI TEAM */
 
-.card {
+/* Struttura Card Profilo */
+main section .card {
     background-color: black;
     color: white;
     width: calc((100% / 3) - 2%);
     box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 40%);
 }
 
-img {
+/* Immagine Profilo */
+main section div img {
     width: 30%;
 }
 
-.info {
+/* Centratura Dati Profilo */
+main section div .info {
     line-height: 40px;
     margin-left: 20px;
 }
 
+main section div .info span {
+    display: block;
+}
+
+/* Emails Profili - Colore e Style */
+a {
+    text-decoration: none;
+    color: rgb(31, 196, 239);
+}
+
+/* FLOAT Cards Profili e Dati Profilo*/
 .left, .center, img, .info {
     float: left;
 }
@@ -46,17 +65,14 @@ img {
     float: right;
 }
 
-.team::after {
+/* CLEARfix Float */
+main .team::after {
     content: "";
     display: table;
     clear: both;
 }
 
+/* Centratura Card Centrale */
 .center {
     margin-left: 3%;
-}
-
-a {
-    text-decoration: none;
-    color: rgb(31, 196, 239);
 }
