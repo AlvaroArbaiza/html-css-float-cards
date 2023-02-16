@@ -1,0 +1,28 @@
+Meet Our Team
+
+Lorem ipsum dolor sit amet. consectetur adipisicing elit. Sequi molestias quas dicta recusandae aspernatur. totam fugit animi beatae quaerat
+quasi voluptatum delectus impedit explicabo ex, et tempore dolore? Assumenda. animi:
+
+MARCO BIANCHI
+Designer
+marcobianchi@team.com
+
+LAURA ROSSI
+Front-end Developer
+laurarossi@team.com
+
+GIORGIO VERDI
+Back-end Developer
+giorgioverdi@team.com
+
+MARTA IPSUM
+SEO Specialist
+martaipsum@team.com
+
+ROBERTO LOREM
+Project Manager
+robertolorem@team.com
+
+DANIELA AMET
+Analyst
+danielaamet@team.com
