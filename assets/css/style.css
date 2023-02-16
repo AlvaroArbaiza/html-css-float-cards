@@ -1,5 +1,8 @@
 .container {
     width: 90%;
+}
+
+.container, .team {
     margin: 50px auto;
 }
 
@@ -17,4 +20,43 @@ p {
 
 header {
     text-align: center;
+}
+
+.card {
+    background-color: black;
+    color: white;
+    width: calc((100% / 3) - 2%);
+    box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 40%);
+}
+
+img {
+    width: 30%;
+}
+
+.info {
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+.left, .center, img, .info {
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.team::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.center {
+    margin-left: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(31, 196, 239);
 }
